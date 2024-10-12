@@ -1,8 +1,8 @@
 return {
-    "tiagovla/tokyodark.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-        vim.cmd("colorscheme tokyodark")
-    end,
+  "olimorris/onedarkpro.nvim",
+  lazy = false,
+  priority = 1000,
+  config = function()
+    vim.cmd("colorscheme onedark")
+  end,
 }
